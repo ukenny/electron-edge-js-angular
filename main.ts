@@ -2,6 +2,8 @@ import { app, BrowserWindow, screen } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
 
+import {ElectronService } from 'ngx-electron';
+
 let win, serve;
 const args = process.argv.slice(1);
 serve = args.some(val => val === '--serve');
@@ -11,6 +13,8 @@ function createWindow() {
   const electronScreen = screen;
   const size = electronScreen.getPrimaryDisplay().workAreaSize;
 
+  let globalAny: any = global;
+  globalAny.edge = require('electron-edge-js');
   // Create the browser window.
   win = new BrowserWindow({
     x: 0,

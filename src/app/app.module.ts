@@ -8,12 +8,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
-
+import { NgxElectronModule } from 'ngx-electron';
 // NG Translate
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { ElectronService } from './providers/electron.service';
+import { CsharpFrameworkService } from './csharp-framework.service';
 
 import { WebviewDirective } from './directives/webview.directive';
 
@@ -42,9 +43,10 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: (HttpLoaderFactory),
         deps: [HttpClient]
       }
-    })
+    }),
+    NgxElectronModule
   ],
-  providers: [ElectronService],
+  providers: [ElectronService, CsharpFrameworkService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
