@@ -62,3 +62,14 @@ c-sharp/QuickStart/QuickStart.Core/obj/
 c-sharp/QuickStart/.vs/QuickStart/v16/Server/sqlite3/
 
 c-sharp/QuickStart/QuickStart.Core/bin/Debug/netcoreapp2.2/
+
+c-sharp/QuickStart/QuickStart.Core/bin/Debug/netcoreapp2.2/*
+c-sharp/QuickStart/QuickStart.Core/bin/Debug/netcoreapp2.2/QuickStart.Core.dll
+c-sharp/QuickStart/QuickStart.Core/bin/Debug/netcoreapp2.2/QuickStart.Core.pdb
+c-sharp/QuickStart/QuickStart.Framework/bin/Debug/QuickStart.Framework.dll
+c-sharp/QuickStart/QuickStart.Framework/bin/Debug/QuickStart.Framework.pdb
+c-sharp/QuickStart/QuickStart.Framework/obj/Debug/QuickStart.Framework.csproj.CoreCompileInputs.cache
+c-sharp/QuickStart/QuickStart.Framework/obj/Debug/QuickStart.Framework.csproj.FileListAbsolute.txt
+c-sharp/QuickStart/QuickStart.Framework/obj/Debug/QuickStart.Framework.csprojAssemblyReference.cache
+c-sharp/QuickStart/QuickStart.Framework/obj/Debug/QuickStart.Framework.dll
+c-sharp/QuickStart/QuickStart.Framework/obj/Debug/QuickStart.Framework.pdb
