@@ -8,6 +8,7 @@
 /release
 main.js
 src/**/*.js
+!src/karma.conf.js
 *.js.map
 
 # C-Sharp Files
@@ -32,7 +33,7 @@ src/**/*.js
 
 # IDE - VSCode
 .vscode/*
-!.vscode/settings.json
+.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
