@@ -37,6 +37,7 @@
     "e2e": "npm run postinstall:web && ng e2e"
   },
   "dependencies": {
+    "@types/electron": "^1.6.10",
     "electron-edge-js": "^12.0.1"
   },
   "devDependencies": {
