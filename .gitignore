@@ -60,3 +60,5 @@ Thumbs.db
 c-sharp/QuickStart/QuickStart.Core/obj/
 
 c-sharp/QuickStart/.vs/QuickStart/v16/Server/sqlite3/
+
+c-sharp/QuickStart/QuickStart.Core/bin/Debug/netcoreapp2.2/
